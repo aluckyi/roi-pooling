@@ -1,6 +1,6 @@
 # RoI pooling in TensorFlow
 
-This repo is copied from https://github.com/deepsense-ai/roi-pooling, but some modifications in Makefile are made to support tensorflow-1.11 and cuda-9.0. Beside, some problems in roi_pooling_test.py are also corrected.
+**This repo is copied from https://github.com/deepsense-ai/roi-pooling.**
 
 This repo contains the implementation of **Region of Interest pooling** as a custom TensorFlow operation. The CUDA code responsible for the computations was largely taken from the original [Caffe implementation by Ross Girshick](https://github.com/rbgirshick/fast-rcnn).
 
