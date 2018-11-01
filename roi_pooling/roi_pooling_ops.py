@@ -47,5 +47,5 @@ def _RoiPoolingShape(op):
     pool_width = op.get_attr('pool_width')
 
     #TODO: check the width/hegiht order
-    return [tf.TensorShape([n_rois, n_channels, pool_width, pool_height]),
+    return [tf.TensorShape([n_rois, n_channels, pool_height, pool_width]),
             tf.TensorShape(None)]

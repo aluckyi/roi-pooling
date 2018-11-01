@@ -32,7 +32,7 @@ REGISTER_OP("RoiPooling")
     ::tensorflow::shape_inference::ShapeHandle output_shape = \
             c->MakeShape({num_rois, channels, _pool_height, _pool_width});
     c->set_output(0, output_shape);
-	c->set_output(1, output_shape);
+    c->set_output(1, output_shape);
     return Status::OK();
 });
 
